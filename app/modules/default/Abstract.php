@@ -44,6 +44,9 @@ abstract class App_Modules_Default_Abstract extends Zend_Controller_Action
 		
 		/* Setting the base url of assets in view */
 		$this->view->assetUrl = $this->_request->getBaseUrl() . '/assets/';
+		
+		/* Setting path to a custom Helpers */
+		$this->view->addHelperPath(PLUGIN_DIR . 'Helpers/', 'Helper');
 	}
 	/**
 	 * The flashMessengerInit is a method to initialize the FlashMessenger Action Helper and getting stored messages in this
