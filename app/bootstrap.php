@@ -48,7 +48,7 @@ require_once 'Initializer.php';
 require_once 'Zend/Config/Ini.php';
 require_once 'Zend/Controller/Front.php';
 require_once 'Zend/Loader.php';
-require_once 'Zend/Loader/AutoLoader.php';
+require_once 'Zend/Loader/Autoloader.php';
 require_once 'Zend/Registry.php';
 
 /* Setting params and configs on autoloader */
